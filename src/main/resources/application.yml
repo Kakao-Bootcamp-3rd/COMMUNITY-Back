@@ -26,11 +26,11 @@ spring:
     redis:
       namespace: shboard:session
 
-  data:
-    redis:
-      host: localhost
-      password: 'gustjq3735!'
-      port: 6379
+#  data:
+#    redis:
+#      host: localhost
+#      password: 'gustjq3735!'
+#      port: 6379
 
   profiles:
     active: custom-security
