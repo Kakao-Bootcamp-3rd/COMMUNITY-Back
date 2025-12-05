@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;
-import springboot.kakao_boot_camp.domain.user.entity.User;
+import springboot.kakao_boot_camp.domain.user.model.User;
 
 import java.time.LocalDateTime;
 
@@ -40,7 +40,7 @@ public class Post {
     int commentCount = 0;
 
     @CreatedDate
-    LocalDateTime cratedAt;
+    LocalDateTime createdAt;
 
     LocalDateTime updatedAt;
 
